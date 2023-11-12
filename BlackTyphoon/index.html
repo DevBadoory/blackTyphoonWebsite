@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+
+    <header>
+        <div class="header-container">
+            <a href="#home"> <img src="./images/logo.180a3b15.webp" alt="" class="logo"> </a>
+            <input type="checkbox" id="nav-toggle" class="nav-toggle">
+            <nav class="nav">
+                <ul class="nav__list" id="nav__list">
+                    <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
+                    <li class="nav__item"><a href="#services" class="nav__link">Our Services</a></li>
+                    <li class="nav__item"><a href="#about" class="nav__link">About Us</a></li>
+                </ul>
+            </nav>
+            <label for="nav-toggle" class="nav-toggle-label">
+                <span></span>
+            </label>
+
+            <div class="header-btn-container"> 
+                <a class="header-btn btn" href="#contact">Join Us!</a>
+            </div>
+        </div>
+
+    </header>
+
+    <section class="home-section" id="home">
+
+        <div class="container home-container">
+            <!-- <img class="hero-img" src="./natalie-parham-9Qccv5rZtRM-unsplash.jpg" alt=""> -->
+            <div class="camera-view-container">
+                <div class="camera-view1">
+                    <div class="top-left"></div>
+                    <div class="top-left2"></div>
+                    <!-- <div class="top-right"></div>
+                    <div class="top-right2"></div> -->
+
+                    <div class="rec-view">
+                        <div class="dot"></div>
+                        <h3 class="rec">REC</h3>
+                    </div>
+                </div>
+
+                <div class="title">
+                    <h1 class="hero-title"> <span class="under-line">Black Typhoon</span> is stirring up a storm in the
+                        Saudi film industry.</h1>
+                        <a class="btn hero-btn" href="#contact">Join Us!</a>
+                </div>
+
+                <div class="camera-view2">
+                    <!-- <div class="bot-left"></div>
+                    <div class="bot-left2"></div> -->
+                    <div class="bot-right"></div>
+                    <div class="bot-right2"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="services-section" id="services">
+        <div class="container">
+           <div class="what-we-do">
+               <p class="text under-line">What we do</p>
+           </div>
+           <div class="sub-text">
+               <p>Let's bring your ideas to the big screens</p>
+            </div>
+           <div class="all-img">
+               <!-- <div class="img1-2"> -->
+               <div class="img1 images service-img">
+                   <div class="text-container">
+                       <hr class="text-hr">
+                       <h3 class="h3-text">
+                           Pre-production
+                       </h3>
+                       <p class="services-imgSubtitle">We help you manage creative concepts, script development, Storyboard, casting, crew and concept visualization.
+                       </p>
+                       
+                   </div>
+               </div>
+               <div class="img2 service-img">
+                   <div class="text-container">
+                       <hr class="text-hr">
+                       <h3 class="h3-text">
+                           Video production
+                       </h3>
+                       <p class="services-imgSubtitle">
+                           Whether YouTube videos, commercials, Netflix series or films Black Typhoon got you covered.
+                       </p>
+                   </div>
+           </div>
+               <div class="img3 service-img">
+                   <div class="text-container">
+                       <hr class="text-hr">
+                       <h3 class="h3-text">
+                           Pre-production
+                       </h3>
+                       <p class="services-imgSubtitle">We help you manage creative concepts, script development, Storyboard, casting, crew and concept visualization.</p>
+                   </div>
+               </div>
+           </div>
+        </div>      
+    </section>
+
+
+
+
+
+    <section class="about-section" id="about">
+        <div class="container about-container">
+            <div class="about-text">
+                <h3 class="about-title under-line">Our Story</h3>
+                <p class="about-subtitle">Film production has always been an important form of self expression. It relies on artistic visions, technical abilities and a whole lot of talent. So at Black Typhoon, we’ve decided to support those aspiring to express their creativity through film, those with a desire to tell moving stories that will inspire generations to turn their dreams into reality.</p>
+            </div>
+
+            <div class="team-images">
+                
+                <div class="team-img team-img1">
+                    <div class="team-text">
+                        <h3 class="team-name">Battusai</h3>
+                        <p class="team-title">Owner</p>
+                    </div>
+                </div>
+
+                <div class="team-img team-img2">
+                    <div class="team-text">
+                        <h3 class="team-name">Woody</h3>
+                        <p class="team-title">Owner</p>
+                    </div>
+                </div>
+
+                <div class="team-img team-img3">
+                    <div class="team-text">
+                        <h3 class="team-name">Morty</h3>
+                        <p class="team-title">Owner</p>
+                    </div>
+                </div>
+
+                <div class="team-img team-img4">
+                    <div class="team-text">
+                        <h3 class="team-name">Kim Possible</h3>
+                        <p class="team-title">Owner</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="contact-section" id="contact">
+        <div class="contact-container">
+            <h3 class="section-title under-line" id="contact">Get in touch!</h3>
+            <p class="contact-section-subtitle">Please fill the form below and we will get back to you as soon as possible.Also, you may contact us on <strong>info@blacktyphoon.com</strong></p>
+            <div class="contactForm-container">
+                <div class="form-container">
+                    <form action="https://formspree.io/f/xgejqrnn" method="POST" enctype="multipart/form-data">
+                        <p class="form-title">Name:</p>
+                        <input type="text" placeholder="Your Name" class="input-name inputs">
+                        <p class="form-title">Email:</p>
+                        <input type="email" name="email" id="" placeholder="YourEmail@gmail.com" class="input-email inputs">
+                        <p class="form-title">Message:</p>
+                        <textarea name="message" id="" cols="30" rows="10" placeholder="Hello... *" class="input-text"></textarea>
+                        <input type="submit" value="Send" class="send-btn" >
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
